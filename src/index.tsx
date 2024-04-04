@@ -142,8 +142,8 @@ export class Pusher {
   public init(args: {
     apiKey: string;
     host?: string;
-    wsPort?: string;
-    wssPort?: string;
+    wsPort?: number;
+    wssPort?: number;
     cluster?: string;
     authEndpoint?: string;
     useTLS?: boolean;

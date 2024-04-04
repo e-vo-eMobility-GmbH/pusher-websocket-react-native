@@ -4,6 +4,7 @@
     "paths": {
       "pusher-websocket-react-native": ["./src/index"]
     },
+    "ignoreDeprecations": "5.0",
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
