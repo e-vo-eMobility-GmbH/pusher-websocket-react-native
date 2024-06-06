@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/e-vo-eMobility-GmbH/pusher-websocket-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-vo-eMobility-GmbH/pusher-websocket-react-native.git"
+  },
   "author": "Pusher <info@pusher.com> (https://pusher.com)",
   "license": "MIT",
   "bugs": {
