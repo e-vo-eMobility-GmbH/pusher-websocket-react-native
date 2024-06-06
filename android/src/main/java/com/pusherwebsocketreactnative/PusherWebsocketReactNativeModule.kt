@@ -75,10 +75,10 @@ class PusherWebsocketReactNativeModule(reactContext: ReactApplicationContext) :
         options.setHost(arguments.getString("host"))
       }
       if (arguments.hasKey("wsPort")) {
-        options.setWsPort(arguments.getString("wsPort"))
+        options.setWsPort(arguments.getInt("wsPort"))
       }
       if (arguments.hasKey("wssPort")) {
-        options.setWsPort(arguments.getString("wssPort"))
+        options.setWsPort(arguments.getInt("wssPort"))
       }
       pusher = Pusher(arguments.getString("apiKey"), options)
       Log.i(TAG, "Start $pusher")
